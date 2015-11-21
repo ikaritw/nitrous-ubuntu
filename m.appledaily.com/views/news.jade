@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Source: 
+    a(href=source)= source
+  section(class="article")
+    ol
+      - each artTitle in artTitles
+        li
+          a(href=artTitle.href)= artTitle.title + ':' + artTitle.time
+  section(class="category")
+    ul
+      - each category in categories
+        li
+          a(href=category.href)= category.title
+  iframe(id="news_detail")
+  hr
+  p Count:#{count}
+  p userAgent:#{userAgent}

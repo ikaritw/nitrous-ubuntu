@@ -1,0 +1,23 @@
+/*
+body {
+  padding: 20px;
+  font: 13px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*/
+
+.category li {display:inline;margin:5px;}
+
+article {font-size:16px;}
+
+#news_detail {
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    width: 50%;
+    height: 700px;
+    border: 2px solid #CCC;
+}

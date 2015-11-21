@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2= article_title
+  article= article_body
+  hr
+  p Source: 
+    a(href=source)= source
+  p userAgent:#{userAgent}
