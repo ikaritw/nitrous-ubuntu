@@ -1,0 +1,14 @@
+{
+  "name": "js_auto_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jazz.lin",
+  "license": "MIT",
+  "devDependencies": {
+    "shelljs": "^0.5.3"
+  }
+}
